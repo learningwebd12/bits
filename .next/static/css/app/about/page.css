@@ -1,0 +1,210 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/innerabout.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+.innerabout_mainInsideSection___RplJ{
+    
+    width: 100%;
+    padding: 2vw 4vw;
+}
+.innerabout_firstAbout__J1Qej{
+padding: 5vw 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.innerabout_twoText__67I3R{
+    padding:1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+   
+}
+.innerabout_twoText__67I3R::after, .innerabout_twoText__67I3R::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    transform: rotate(35deg);
+    background-color: #a4a4a47f;
+    transition: all 0.4s ease;
+    z-index: -1;
+    filter: blur(2vw);
+}
+.innerabout_twoText__67I3R::before {
+    left: -50%;
+    
+}
+
+.innerabout_twoText__67I3R::after {
+    right: -50%;
+}
+
+.innerabout_twoText__67I3R:hover::before {
+    left: 0;
+    
+}
+
+.innerabout_twoText__67I3R:hover::after {
+    right: 0;
+}
+.innerabout_twoText__67I3R:hover .innerabout_projectText__rgzqx{
+    color: #31e400;
+}
+
+.innerabout_projectText__rgzqx{
+    font-size: var(--header-font);
+    font-family: "Teko";
+    color: var(--main-text);
+    line-height: 5vw;
+}
+.innerabout_projctPasag__aMase{
+    font-family: "poppins";
+    font-size: 0.9vw;
+    color: var(--pasag-color);
+}
+.innerabout_TopAbout__7p0sF{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 7vw 0 0 0;
+}
+.innerabout_topleft__EwKBC{
+    width: 50%;
+   
+   
+}
+.innerabout_topText__Su1GF{
+    font-size: var(--header-font);
+    font-family: "Teko";
+    color: var(--main-text);
+}
+.innerabout_topPasag__QmLL_{
+    font-family: "poppins";
+    font-size: 0.9vw;
+    color: var(--pasag-color);
+    text-align: justify;
+}
+.innerabout_topImages__Awf5k{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+.innerabout_aboutMainimages__5N9rb{
+    width: 45%;
+    height: 25vw;
+    border-radius: 10vw 10vw 0 10vw;
+}
+.innerabout_middleAbout__AWtNu{
+    display: flex;
+    padding: 8vw 0 0 0;
+}
+.innerabout_sideImages__Pko_B{
+    width: 50%;
+    position: relative;
+    
+}
+.innerabout_aboutText__NVqjr{
+    position: absolute;
+    top: -6vw;
+    left: 2vw;
+    font-size: var(--header-font);
+    font-family: "teko";
+    background-color: var(--main-color);
+    color: var(--main-text);
+    padding:0 1vw;
+    border-radius: 1vw;
+   
+}
+.innerabout_secondAboutImages__8A_hB{
+    width: 58%;
+    height: 35vw;
+}
+.innerabout_aboutText__NVqjr{
+font-size: var(--header-font);
+}
+.innerabout_rightPasag__rK7eU{
+    width: 50%;
+}
+.innerabout_middlePasag__ac0Ra{
+    font-family: "poppins";
+    font-size: 0.9vw;
+    color: var(--pasag-color);
+    margin: 2vw 0;
+}
+
+@media only screen and (max-width:620px){
+    .innerabout_firstAbout__J1Qej{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+
+    }
+    .innerabout_twoText__67I3R{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .innerabout_projectText__rgzqx{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .innerabout_projctPasag__aMase{
+        font-size: 0.9rem;
+    }
+    .innerabout_TopAbout__7p0sF{
+        flex-direction: column;
+    }
+    .innerabout_topleft__EwKBC{
+        width: 100%;
+    }
+    .innerabout_topText__Su1GF{
+        font-size: 5rem;
+    }
+    .innerabout_topPasag__QmLL_{
+        font-size: 0.9rem;
+    }
+    .innerabout_topImages__Awf5k{
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+        padding: 1rem 1rem 1rem 0;
+    }
+    .innerabout_aboutMainimages__5N9rb{
+        width: 50%;
+        height: 15rem;
+    }
+    .innerabout_middleAbout__AWtNu{
+        flex-direction: column;
+        padding: 5rem 0;
+    }
+    .innerabout_sideImages__Pko_B{
+
+        width: 100%;
+    }
+    .innerabout_secondAboutImages__8A_hB{
+        width: 100%;
+        height: auto;
+    }
+    .innerabout_aboutText__NVqjr{
+        font-size: 5rem;
+        top: -5rem;
+        left: 2rem;
+        padding:0 0.8rem;
+    }
+    .innerabout_rightPasag__rK7eU{
+        width: 100%;
+    }
+    .innerabout_middlePasag__ac0Ra{
+        font-size: 0.9rem;
+        text-align: justify;
+        margin: 1rem 0;
+    }
+}

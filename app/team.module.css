@@ -1,0 +1,139 @@
+.teamSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw 4vw;
+}
+.twoTeamText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+  
+}
+.teamTextImages{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    
+}
+.teamImagesone{
+    height: 4vw;
+    width: 25%;
+    margin: 0 2vw;
+}
+.teamH1{
+    font-size:var(--header-font);
+    color: var(--main-text);
+    font-family: "Teko";
+    
+}
+.teamText{
+
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   text-align: end;
+   
+}
+.pasagText{
+    width: 45%;
+    font-family: "poppins";
+    color: var(--pasag-color);
+    font-size: 0.9vw;
+    
+}
+
+
+.allTeamMember{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  
+}
+.mainMember{
+    padding: 1vw;
+    width: 32%;  
+}
+
+.mainMember:nth-child(2){ 
+    margin: -3vw 0 0 0;
+}
+
+.teammemberImages{
+    width: 100%;
+    
+}
+.TarkaImages{
+    height: 30vw;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.2vw;
+}
+.figcaption{
+    font-family: "Teko";
+    font-size: 2vw;
+    color: var(--main-text);
+    margin: 0.5vw 0 0 0;
+}
+.teamdetails{
+    font-family: "poppins";
+    font-size: 0.9vw;
+    margin: -0.5vw 0 0 0;
+    color: var(--pasag-color);
+
+}
+
+
+@media only screen and (max-width:620px){
+    .twoTeamText{
+   
+        flex-direction: column;
+    }
+    .teamTextImages{
+        width: 100%;
+    }
+    .teamH1{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .teamImagesone{
+        height: auto;
+    }
+    .teamText{
+        width: 100%;
+        justify-content: start;
+        padding: 2rem 0;
+    }
+    .pasagText{
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center;
+    }
+    .allTeamMember{
+        flex-direction: column;
+ 
+        width: 100%;
+    }
+    .mainMember{
+        width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+
+    .TarkaImages{
+        height: auto;
+    }
+    .figcaption{
+        font-size: 2rem;
+    }
+    .teamdetails{
+        font-size: 0.9rem;
+    }
+}

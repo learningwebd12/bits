@@ -1,0 +1,108 @@
+.header{
+    font-family: "Teko",sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw 4vw;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: var(--main-color);
+}
+.logo{
+    color: var(--btn-color);
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.allNavabdBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+
+}
+.navtext{
+    font-size: 1vw;
+    text-decoration: none;
+    margin: 0 1vw;
+    color: var(--main-text);
+    font-size: 1.3vw;
+    font-weight: 100;
+    letter-spacing: 0.09vw;
+    position: relative;
+    text-transform: uppercase;
+}
+.navtext::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+height: 0.1vw;
+width: 0%;
+background-color: var(--btn-color);
+transition: 0.6s all ease-in-out;
+}
+.navtext:hover::after{
+    width: 100%;
+}
+.headerBtn{
+    background-color: var(--btn-color);
+    padding: 0.9vw 2.5vw;
+    font-size: 1.3vw;
+    font-family: "Teko",sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2vw;
+    font-weight: 500;
+}
+
+.menuIcon{
+    display: none;
+}
+
+
+@media only screen and (max-width:620px){
+    .allNavabdBtn{
+        display: none;
+}
+
+    .menuIcon{
+        display: block;
+        padding: 0;
+        cursor: pointer;
+        z-index: 11111;
+        margin: 0.6rem 0;
+       
+            }
+            .logo{
+                font-size: 1.5rem;
+            }
+            .specific-div{
+                background-color: var(--main-color);
+                width: 100%;
+                height: auto;
+                padding: 2rem;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                top: 3.5rem;
+                left: 0;
+            }
+            .nav{
+                display: flex;
+                flex-direction: column;
+            }
+            .navtext{
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            .headerBtn{
+                font-size: 1.1rem;
+        padding: 1.1rem 3rem;
+        width: 100%;
+        border-radius: 0.4rem;
+        margin: 1rem 0;
+            }
+}

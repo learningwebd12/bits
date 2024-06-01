@@ -1,0 +1,347 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/footer.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+.footer_mainFooter___DFQR{
+    width: 100%;
+    padding: 10vw 0 0 0;
+}
+.footer_innerFooter__A1sz7{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    gap: 1vw;
+    padding: 2vw 4vw;
+}
+.footer_innerFooterBox__Si3Lp{
+    width: 25%;
+}
+.footer_innerFooterBox__Si3Lp:nth-child(2){
+    padding: 0 0 0 4vw;
+}
+.footer_h2__SRSKZ{
+    color: var(--main-text);
+    font-size: 1.2vw;
+    font-weight: 700;
+    font-family: "poppins", sans-serif;
+}
+.footer_sendIcon__pz9SV{
+    height: 2vw;
+    cursor: pointer;
+    color: white;
+}
+.footer_unOrder__5IL_B{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_p__xmPu2{
+    color: var(--main-text);
+    font-size: 0.9vw;
+    margin: 1vw 0 0 0;
+    font-family: "poppins";
+}
+.footer_footertext__CPdWf{
+    color: var(--main-text);
+    font-size: 0.9vw;
+    margin: 1vw 0 0 0;
+    font-family: "poppins";
+    text-decoration: none;
+}
+
+.footer_nextFooterBox__gJvZY{
+    border-top: 0.1vw solid #666666;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2vw 4vw;
+}
+.footer_inputType__pBT8V{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    background-color: #202020;
+    padding: 0.5vw 2vw;
+}
+.footer_input__L24_e{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 0.8vw;
+    margin: 0 1vw 0 0;
+    outline: none;
+    color: var(--main-text);
+    font-size: 0.9vw;
+    font-family: "poppins";
+}
+
+
+@media only screen and (max-width:620px){
+
+    .footer_innerFooter__A1sz7{
+        flex-direction: column;
+    }
+    .footer_innerFooterBox__Si3Lp{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .footer_h2__SRSKZ{
+        font-size: 1.2rem;
+    }
+    .footer_innerFooterBox__Si3Lp:nth-child(2){
+        padding: 0;
+    }
+    .footer_p__xmPu2{
+        font-size: 0.9rem;
+        color: var(--pasag-color);
+        
+    }
+    .footer_footertext__CPdWf{
+        font-size: 0.9rem;
+        color: var(--pasag-color);
+    }
+    .footer_nextFooterBox__gJvZY{
+        flex-direction: column-reverse;
+    }
+    .footer_inputType__pBT8V{
+margin: 1rem 0 1rem 0;
+        width: 100%;
+    }
+    .footer_input__L24_e{
+        font-size: 0.9rem;
+        width: 100%;
+        height: 3rem;
+         padding: 0.8rem;
+    
+    }
+    .footer_sendIcon__pz9SV{
+        width: auto;
+        height: 2rem;
+    }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+:root {
+  --main-color: #171717;
+  --btn-color:#9FFF02;
+  --main-text:#FFFFFF;
+  --card-color:#000000;
+  --midle-card:#9eff02cd;
+  --header-font:6vw;
+  --pasag-color: #cccccc;
+
+  --btn-padding: 0.9vw 2.5vw;
+  --btn-font-size: 1.3vw;
+  --btn-font-family: "Teko", sans-serif;
+  --btn-border-radius: 0.2vw;
+  --btn-font-weight: 500;
+
+  --input-color:#202020;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+body{
+  background-color: var(--main-color);
+  
+}
+.uploadpost{
+  background-color: antiquewhite;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/navbar.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.navbar_header__9WkUs{
+    font-family: "Teko",sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw 4vw;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: var(--main-color);
+}
+.navbar_logo__AkllC{
+    color: var(--btn-color);
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.navbar_allNavabdBtn__5JqIl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+
+}
+.navbar_navtext__jRERc{
+    text-decoration: none;
+    margin: 0 1vw;
+    color: var(--main-text);
+    font-size: 1.3vw;
+    font-weight: 100;
+    letter-spacing: 0.09vw;
+    position: relative;
+    text-transform: uppercase;
+}
+.navbar_navtext__jRERc::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+height: 0.1vw;
+width: 0%;
+background-color: var(--btn-color);
+transition: 0.6s all ease-in-out;
+}
+.navbar_navtext__jRERc:hover::after{
+    width: 100%;
+}
+.navbar_headerBtn__Bt1wY{
+    background-color: var(--btn-color);
+    padding: 0.9vw 2.5vw;
+    font-size: 1.3vw;
+    font-family: "Teko",sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2vw;
+    font-weight: 500;
+}
+
+.navbar_menuIcon__r_Sz7{
+    display: none;
+}
+
+
+@media only screen and (max-width:620px){
+    .navbar_allNavabdBtn__5JqIl{
+        display: none;
+}
+
+    .navbar_menuIcon__r_Sz7{
+        display: block;
+        padding: 0;
+        cursor: pointer;
+        z-index: 11111;
+        margin: 0.6rem 0;
+       
+            }
+            .navbar_logo__AkllC{
+                font-size: 1.5rem;
+            }
+            .navbar_specific-div__oR5yp{
+                background-color: var(--main-color);
+                width: 100%;
+                height: auto;
+                padding: 2rem;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                top: 3.5rem;
+                left: 0;
+            }
+            .navbar_nav__fQtI4{
+                display: flex;
+                flex-direction: column;
+            }
+            .navbar_navtext__jRERc{
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            .navbar_headerBtn__Bt1wY{
+                font-size: 1.1rem;
+        padding: 1.1rem 3rem;
+        width: 100%;
+        border-radius: 0.4rem;
+        margin: 1rem 0;
+            }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.jsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Inter_aaf875';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/ec159349637c90ad-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Inter_aaf875';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/513657b02c5c193f-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: '__Inter_aaf875';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/fd4db3eb5472fc27-s.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: '__Inter_aaf875';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/51ed15f9841b9f9d-s.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Inter_aaf875';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/05a31a2ca4975f99-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Inter_aaf875';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/d6b16ce4a6175f26-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Inter_aaf875';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Inter_Fallback_aaf875';src: local("Arial");ascent-override: 90.20%;descent-override: 22.48%;line-gap-override: 0.00%;size-adjust: 107.40%
+}.__className_aaf875 {font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';font-style: normal
+}
+

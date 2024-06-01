@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+.innerblogSection{
+    width: 100%;
+    padding: 0 4vw;
+}
+.blogHeaderText{
+    padding: 5vw 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+.innerblogPasag{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.innerblogH1{
+    width: 50%;
+}
+.innerh1{
+    font-family: "Teko";
+    font-size:var(--header-font);
+    color: var(--main-text);
+
+}
+.innerText{
+    font-family: "poppins";
+    color: var(--pasag-color);
+    width: 60%;
+    font-size: 0.9vw;
+}
+.innerImages{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+   
+}
+.blogDate{
+    position: absolute;
+    bottom: -0.5vw;
+    right: 5.5vw;
+    font-size: 0.9vw;
+    background-color:var(--main-color) ;
+    color: var(--pasag-color);
+    padding: 1vw 0.7vw;
+    border-radius: 10vw;
+    
+}
+.imageandText{
+   padding: 0.5vw;
+}
+.imageandText:hover .mainBlogPostImages{
+    transform: scale(1.1);
+    transition: 1s all ease-in-out;
+}
+.mainBlogPostImages{
+    height: 18vw;
+    width: 100%;
+    border-radius: 0.5vw;
+    
+}
+
+
+
+.allBlogPost{
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vw;
+}
+.textblog{
+    padding: 1.5vw 0 0 0;
+}
+.figcaption{
+    font-size: 2.2vw;
+    line-height:2.5vw ;
+    font-family: "Teko";
+    color:var(--main-text);
+}
+.blogDescribe{
+    font-family: "poppins";
+    font-size: 0.9vw;
+    color: var(--pasag-color);
+}
+
+
+@media only screen and (max-width:620px){
+    .blogHeaderText{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .innerblogH1{
+        width: 100%;
+    }
+    .innerblogPasag{
+
+        width: 100%;
+        justify-content: start;
+    }
+    .innerText{
+        font-size: 3.5vw;
+        width: 100%;
+    }
+    .innerh1{
+        font-size: 20vw;
+        line-height: 20vw;
+        
+    }
+.allBlogPost{
+    grid-template-columns: 1fr;
+}
+
+.figcaption{
+    font-size: 8vw;
+    line-height: 8.5vw;
+}
+.blogDescribe{
+    font-size: 3.5vw;
+}
+.innerImages{
+    
+    height:55%;
+    
+}
+.textblog{
+  
+    padding: 6vw 0 0 0;
+    height: 45%;
+}
+.blogDate{
+font-size: 4vw;
+bottom: -1.7vw;
+right: 15vw;
+padding: 3vw;
+
+
+}
+.mainBlogPostImages{
+    height: 100%;
+    width: 100%;
+}
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+.mainFooter{
+    width: 100%;
+    padding: 10vw 0 0 0;
+}
+.innerFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    gap: 1vw;
+    padding: 2vw 4vw;
+}
+.innerFooterBox{
+    width: 25%;
+}
+.innerFooterBox:nth-child(2){
+    padding: 0 0 0 4vw;
+}
+.h2{
+    color: var(--main-text);
+    font-size: 1.2vw;
+    font-weight: 700;
+    font-family: "poppins", sans-serif;
+}
+.sendIcon{
+    height: 2vw;
+    cursor: pointer;
+    color: white;
+}
+.unOrder{
+    display: flex;
+    flex-direction: column;
+}
+
+.p{
+    color: var(--main-text);
+    font-size: 0.9vw;
+    margin: 1vw 0 0 0;
+    font-family: "poppins";
+}
+.footertext{
+    color: var(--main-text);
+    font-size: 0.9vw;
+    margin: 1vw 0 0 0;
+    font-family: "poppins";
+    text-decoration: none;
+}
+
+.nextFooterBox{
+    border-top: 0.1vw solid #666666;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2vw 4vw;
+}
+.inputType{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    background-color: #202020;
+    padding: 0.5vw 2vw;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 0.8vw;
+    margin: 0 1vw 0 0;
+    outline: none;
+    color: var(--main-text);
+    font-size: 0.9vw;
+    font-family: "poppins";
+}
+
+
+@media only screen and (max-width:620px){
+
+    .innerFooter{
+        flex-direction: column;
+    }
+    .innerFooterBox{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .h2{
+        font-size: 1.2rem;
+    }
+    .innerFooterBox:nth-child(2){
+        padding: 0;
+    }
+    .p{
+        font-size: 0.9rem;
+        color: var(--pasag-color);
+        
+    }
+    .footertext{
+        font-size: 0.9rem;
+        color: var(--pasag-color);
+    }
+    .nextFooterBox{
+        flex-direction: column-reverse;
+    }
+    .inputType{
+margin: 1rem 0 1rem 0;
+        width: 100%;
+    }
+    .input{
+        font-size: 0.9rem;
+        width: 100%;
+        height: 3rem;
+         padding: 0.8rem;
+    
+    }
+    .sendIcon{
+        width: auto;
+        height: 2rem;
+    }
+}

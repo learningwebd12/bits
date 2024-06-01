@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+.contactSection{
+    width: 100%;
+    padding: 0 4vw;
+}
+.firstContactBox{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 8vw 0 0 0;
+}
+.leftContactText{
+    width: 50%;
+}
+.contactH1{
+    font-family: "Teko";
+    font-size: var(--header-font);
+    width: 80%;
+    line-height: 5vw;
+    color: var(--main-text);
+}
+.rightContactText{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.contactPasag{
+    width: 43%;
+    font-size: 0.9vw;
+    font-family: "poppins";
+    color: var(--pasag-color);
+}
+
+
+.secondContactBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 3vw 0;
+}
+.leftinfo{
+    width: 50%;
+ 
+}
+.contactH3{
+    font-family: "Teko";
+    font-size: 2vw;
+    margin: 0.5vw 0;
+    color: var(--main-text);
+}
+.contactText:nth-child(2){
+    width: 45%;
+}
+.contactText{
+    font-family: "poppins";
+    font-size: 0.9vw;
+    color: var(--pasag-color);
+}
+
+.contactForm{
+    width: 50%;
+   
+}
+.twoInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+    margin: 0.5vw 0;
+}
+.contactInput{
+    width: 100%;
+    padding: 1vw;
+    outline: none;
+    border: none;
+    background-color: var(--input-color);
+    font-family: "Teko";
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+    color: var(--pasag-color);
+}
+.textarea{
+    width: 100%;
+    background-color: var(--input-color);
+    border: none;
+    outline: none;
+    height: 10vw;
+    margin: 1vw 0 0 0;
+    font-family: "Teko";
+    letter-spacing: 0.1vw;
+    font-size: 1.2vw;
+    padding: 1vw;
+    color: var(--pasag-color);
+}
+
+.sendMessage{
+    padding: var(--btn-padding);
+    font-size: var(--btn-font-size);
+    font-family: var(--btn-font-family);
+    border-radius: var( --btn-border-radius);
+    font-weight: var( --btn-font-weight);
+    background-color:var( --btn-color) ;
+    outline: none;
+    border: none;
+    margin: 1vw 0 0 0;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:620px){
+    .firstContactBox{
+   
+        flex-direction:column;
+
+    }
+    .leftContactText{
+        width: 100%;
+    }
+    .contactH1{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .rightContactText{
+        width: 100%;
+        justify-content: start;
+        padding: 1rem 0;
+    }
+    .contactPasag{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .secondContactBox{
+        flex-direction: column;
+    }
+    .leftinfo{
+        width: 100%;
+    }
+    .contactH3{
+        font-size: 1.5rem;
+    }
+    .contactText{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .contactText:nth-child(2){
+        width: 100%;
+    }
+    .contactForm{
+        padding: 3rem 0 0 0;
+        width: 100%;
+    }
+    .twoInput{
+        flex-direction: column;
+        margin: 0rem;
+    }
+    .contactInput{
+        font-size: 0.9rem;
+ margin: 0.4rem;
+        padding: 1rem 0.5rem ;
+    }
+    .textarea{
+        height: 10rem;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+    .sendMessage{
+        font-size: 1.1rem;
+        padding: 1.1rem 3rem;
+        width: 100%;
+        border-radius: 0.4rem;
+    }
+}

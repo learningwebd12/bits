@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+.blogSection{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 3vw 4vw;
+}
+.twoblogText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.blogHeader{
+
+    width: 50%;
+}
+.blogH1{
+    color: var(--main-text);
+    font-family: "Teko";
+    font-size: var(--header-font);
+}
+.pasagBtn{
+ padding: 0.2vw 0;
+    width: 25%;
+    
+}
+.ExploreBlogbtn{
+    outline: none;
+border: none;
+padding:0.4vw 0;
+cursor: pointer;
+font-family: "poppins";
+color: var(--btn-color);
+background-color: transparent;
+position: relative;
+font-size:0.9vw;
+}
+.ExploreBlogbtn::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.1vw;
+    width: 100%;
+    background-color: var(--pasag-color);
+}
+
+
+.blogpasagText{
+    color: var(--pasag-color);
+    width: 100%;
+    font-family: "poppins";
+    font-size: 0.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: end;
+  
+}
+
+.allBlog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 4vw 10vw 2vw 0;
+    
+}
+.allBlogPostType{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.firstBlog{
+    width: 33%;
+    position: relative;
+    
+
+}
+.innerBlog{
+    background-color: green;
+    width: 60%;
+    
+}
+.blogImagesone{
+    height: 30vw;
+    width: 100%;
+}
+.allBlogdetails{
+    background-color: #000000;
+    position: absolute;
+    bottom: 7vw;
+    right: -10vw;
+    padding: 2vw 1.5vw;
+    border-radius: 2vw 2vw 0 2vw;
+    width: 80%;
+    height: auto;
+}
+.blogDate{
+    font-family: "poppins";
+    font-size: 0.9vw;
+    color: var(--pasag-color);
+    margin: 0 0 1vw 0;
+}
+.blogTitle{
+    font-family: "Teko";
+    font-size: 1.9vw;
+    width: 100%;
+    color: var(--main-text);
+}
+
+.blogBtn{
+outline: none;
+border: none;
+padding:0.4vw 0;
+cursor: pointer;
+font-family: "poppins";
+color: var(--btn-color);
+background-color: transparent;
+font-size: 0.9vw;
+}
+
+
+@media only screen and (max-width:620px){
+    .twoblogText{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .blogHeader{
+        width: 100%;
+    }
+    .blogH1{
+        font-size: 5rem;
+    }
+    .pasagBtn{
+        width: 100%;
+    }
+    .blogpasagText{
+        font-size: 0.9rem;
+        text-align: start;
+    }
+    .ExploreBlogbtn{
+        font-size: 0.9rem;
+        margin: 1rem 0;
+    }
+    .ExploreBlogbtn::after{
+        height: 0.1rem;
+    }
+    .allBlog{
+        flex-direction: column;
+    }
+    .firstBlog{
+        background-color: green;
+        margin: 1rem 0;
+        width: 100%;
+        height: auto;
+    }
+    .blogImagesone{
+        height:20rem;
+        width: 100%;
+    }
+    .blogDate{
+        font-size: 0.7rem;
+    }
+    .allBlogdetails{
+        width: 80%;
+        border-radius: 1.5rem 1.5rem 0 1.5rem;
+        height: auto;
+        padding:1rem ;
+    }
+    .blogTitle{
+        font-size: 1.3rem;
+    }
+    .blogBtn{
+        font-size: 0.8rem;
+    }
+}

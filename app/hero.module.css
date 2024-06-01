@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+.mainHeroSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+    align-items: stretch;
+    gap: 1vw;
+}
+.threeHeroBox:nth-child(1){
+    width: 33%;
+   
+}
+.mainHeroText{
+    color: var(--main-text);
+    font-family: "teko", sans-serif;
+    font-size: var(--header-font);
+    line-height: 7vw;
+    font-weight: 600;
+}
+.heroPasag{
+    color:var(--main-text) ;
+    font-size: 0.9vw;
+    width: 70%;
+}
+.firstSpan{
+    background:linear-gradient(to right,#9FFF02, #9FFF02, #ffffff,#fff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainHeroImages{
+    height: 30vw;
+    width: 100%;
+}
+.heroBtn{
+    background-color: var(--btn-color);
+    padding: var(--btn-padding);
+    font-weight: var(--btn-font-weight);
+    font-family: var(--btn-font-family);
+    border-radius: var(--btn-border-radius);
+    font-size: var(--btn-font-size);
+    margin: 2.9vw 0 0 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.threeHeroBox:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.threeHeroBox:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    width: 30%;
+}
+.thirdPasag{ 
+    text-align: end;
+}
+.textPasag{
+    color: var(--main-text);
+    font-size: 0.9vw;
+    position: relative;
+    font-family: "poppins";
+}
+.textPasag::after{
+content: "";
+position: absolute;
+bottom: -0.4vw;
+left: 0;
+height: 0.1vw;
+width: 100%;
+background-color: #959595;
+}
+.customerText{
+    color: var(--main-text);
+    font-size: 0.9vw;
+}
+.innterPasag{
+    color: var(--main-text);
+    font-size: 0.9vw;
+}
+.customerImages{
+    height: 2.5vw;
+    width: 60%;
+    margin: 0.5vw 0;
+}
+.heroSmalltext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    color: #fff;
+    transform: rotate(35deg);
+    height: 2vw;
+    margin: 0 0 0 1vw;
+    
+}
+
+
+@media only screen and (max-width:720px){
+    .mainHeroSection{
+        flex-direction: column;
+        
+    }
+    .threeHeroBox{
+    
+        width: 100%;
+    }
+    .threeHeroBox:nth-child(1){
+        width: 100%;
+    }
+    .threeHeroBox:nth-child(2){
+        width: 100%;
+        padding: 2vw 0;
+    }
+    .threeHeroBox:nth-child(3){
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+        
+    }
+    .mainHeroText{
+font-size: 5rem;
+line-height: 5rem;
+    }
+    .heroPasag{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .heroBtn{
+        font-size: 1.1rem;
+        padding: 1.1rem 3rem;
+        width: 100%;
+        border-radius: 0.4rem;
+    }
+    .mainHeroImages{
+        width: 100%;
+        height: auto;
+    }
+    .textPasag{
+        font-size: 0.9rem;
+        
+    }
+    .textPasag::after{
+       
+        height: 0.1rem;
+        
+        }
+    .customerImages{
+        height:2rem ;
+        width: 50%;
+    }
+    .thirdPasag{
+        margin: 1rem 0;
+
+        justify-content: start;
+        text-align: start;
+        padding: 1em 0;
+
+    }
+    .innterPasag{
+        font-size: 0.9rem;
+        
+        width: 100%;
+        
+
+    }
+    .customerText{
+        font-size: 0.9rem;
+    }
+}

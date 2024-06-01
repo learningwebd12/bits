@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+.mainAboutSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 8vw 4vw 2vw 4vw;
+}
+.leftAbout{
+    width: 50%;
+}
+.aboutleftPasag{
+    font-family: "poppins",sans-serif;
+    color: var(--pasag-color);
+    font-size: 0.9vw;
+    width: 70%;
+}
+.aboutsmallBox{
+    padding: 1vw 0;
+}
+.aboutoneImagesone{
+   height: 7vw; 
+   width: 25%;
+}
+.aboutoneImagestwo{
+    height: 22vw;
+    width: 40%;
+}
+
+.rightAbout{
+    width: 50%;
+    position: relative;
+    
+}
+.aboutoneImagesthree{
+    height: 20vw;
+    width: 45%;
+    position: absolute;
+    top: -11vw;
+    right: 4vw;
+}
+.AboutH1{
+    font-size: var(--header-font);
+    font-family: "Teko",sans-serif;
+    width: 40%;
+    line-height: 7vw;
+    font-weight: 600;
+    color:var(--main-text) ;
+}
+.rightAboutPasag{
+    color: #cccccc;
+    padding: 1vw 0;
+    font-size: 0.9vw;
+    width: 95%;
+    font-family: "Poppins",sans-serif;
+    
+}
+
+.loadbtn{
+    margin: 2vw 0;
+    border-radius: var(--btn-border-radius);
+    font-size: var(--btn-font-size);
+    font-family:var(--btn-font-family);
+    padding: var(--btn-padding);
+    background-color: var(--btn-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: var(--btn-font-weight);
+}
+
+
+@media only screen and (max-width:620px){
+    .mainAboutSection{
+ flex-direction: column;
+    }
+    .leftAbout{
+        width: 100%;
+    }
+    .aboutoneImagesone{
+        height: auto;
+        width: 30%;
+    }
+    .aboutsmallBox{
+        padding: 1rem 0;
+    }
+    .aboutleftPasag{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .aboutoneImagestwo{
+        height: auto;
+        width: auto;
+    }
+    .rightAbout{
+        width: 100%;
+    }
+    .AboutH1{
+        font-size: 20vw;
+        line-height: 5rem;
+    }
+    .rightAboutPasag{
+        font-size: 0.9rem;
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .loadbtn{
+        font-size: 1.1rem;
+        padding: 1.1rem 3rem;
+        width: 100%;
+        border-radius: 0.4rem;
+    }
+    .aboutoneImagesthree{
+        height: auto;
+        top: -9rem;
+    }
+}
